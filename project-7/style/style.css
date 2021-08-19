@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 100%;
+    background-color: white;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*flex-wrap: wrap;*/
+}
+
+nav {
+    /*displey flex strochno*/
+    display: flex;
+    width: 100%;
+    margin: auto;
+    /*background-color: orangered;*/
+    justify-content: space-between;
+}
+
+.img-nav {
+    padding-top: 25px;
+}
+
+.navbar-nav {
+    margin-left: 130px;
+
+}
+
+.nav-item {
+    font-style: normal;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.nav-item-nav {
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 500px;
+}
+
+.button-reg {
+    background: #6C63FF;
+    padding: 8px 25px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button-sing {
+    background: white;
+    padding: 8px 25px;
+    border: 1px solid grey;
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.header-info {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    /*align-items: center;*/
+}
+
+.info-img {
+    width: 30%;
+    height: 50%;
+}
+
+.info-text {
+    width: 30%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.header-info p {
+    font-size: 20px;
+    color: grey;
+    padding: 30px 0;
+    line-height: 24px;
+
+}
+
+.header-info button {
+    background: #6C63FF;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    border: 1px solid grey;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.header-info .button-learn {
+    background: white;
+    padding: 10px 25px;
+    border: 1px solid grey;
+    color: black;
+    font-size: 16px;
+
+}
+
+
+/*how it works*/
+.how-works {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /*column v colonco*/
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background-color: grey;
+    opacity: 0.6;
+    margin: 10px;
+}
+
+.how-works-descr {
+    font-size: 25px;
+    width: 30%;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+/*owl-carousel*/
+.owl-carousel {
+    width: 100%;
+    margin: auto;
+}
+
+.owl-carousel .item {
+    width: 50%;
+    margin: auto;
+}
+
+.owl-carousel img {
+    margin-bottom: 55px
+}
+
+
+.owl-prev, .owl-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 40%;
+    border-radius: 50% !important;
+    background-color: #F1F1F1 !important;
+    /*opacity: 0.6;*/
+}
+
+.owl-prev {
+    left: 0
+}
+
+.owl-next {
+    right: 0;
+}
+
+/*текс карусели*/
+.item-title {
+    font-weight: 600;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.item-descr {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+/*Баланс чек*/
+.balance-check {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.balance-img {
+    width: 40%;
+    height: 50%;
+}
+
+.balance-text {
+    flex-direction: column;
+    width: 30%;
+    margin-top: 150px;
+}
+
+.balance-descr {
+    font-size: 20px;
+    width: 70%;
+    /*text-align: center;*/
+    font-weight: normal;
+    opacity: 0.75;
+}
+
+.balance-link {
+    text-decoration: none;
+    color: #6C63FF;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+/*giving Services*/
+
+.giving-services {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /*column v colonco*/
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+
+.giving-services-descr {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.item-giving-services {
+    width: 90%;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item-giving {
+    display: flex;
+}
+
+.item-giving-img {
+width: 20%;
+    height: 50%;
+}
+.item-givin{
+    flex-direction: column;
+}
+
+.item-giving-title{
+    font-size: 30px;
+
+}
+
+.item-giving-descr{
+    width: 70%;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.5;
+}
